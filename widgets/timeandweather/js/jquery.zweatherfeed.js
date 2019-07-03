@@ -218,18 +218,18 @@
         if (lang == 'ru') {
             // If date
             if (word.length > 1 && word[0] >= '0' && word[0] <= '9') {
-                word = word.replace ('Jan', 'Январь');
-                word = word.replace ('Feb', 'Февраль');
-                word = word.replace ('Mar', 'Март');
-                word = word.replace ('Apr', 'Апрель');
-                word = word.replace ('Mai', 'Май');
-                word = word.replace ('Jun', 'Июнь');
+                word = word.replace ('Jan', 'Января');
+                word = word.replace ('Feb', 'Февраля');
+                word = word.replace ('Mar', 'Марта');
+                word = word.replace ('Apr', 'Апреля');
+                word = word.replace ('Mai', 'Мая');
+                word = word.replace ('Jun', 'Июня');
                 word = word.replace ('Jul', 'Июль');
-                word = word.replace ('Aug', 'Август');
-                word = word.replace ('Sep', 'Сентябрь');
-                word = word.replace ('Oct', 'Октябрь');
-                word = word.replace ('Nov', 'Ноябрь');
-                word = word.replace ('Dec', 'Декабрь');
+                word = word.replace ('Aug', 'Августа');
+                word = word.replace ('Sep', 'Сентября');
+                word = word.replace ('Oct', 'Октября');
+                word = word.replace ('Nov', 'Ноября');
+                word = word.replace ('Dec', 'Декабря');
                 return word;
             }
 
